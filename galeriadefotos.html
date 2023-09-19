@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel San Martin</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hotel San Martin</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a class="active" href="galeriadefotos.html">Galeria de fotos</a></li>
+                <li><a href="ubicacionycontacto.html">Ubicacion y Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Galeria de Fotos</h2>
+    <hr>
+    
+    <section class="centrado">
+    <div class="gallery"><a href="assets/img/cuarto1.jpg" target="_blank"> <img src="assets/img/cuarto1.jpg" alt="cuarto1" width="600px">
+    </div>
+    <div class="gallery"><a href="assets/img/cuarto2.jpg" target="_blank"><img src="assets/img/cuarto2.jpg" alt="cuarto2" width="600px">
+    </div>
+    <div class="gallery"><a href="assets/img/cuarto3.jpg" target="_blank"><img src="assets/img/cuarto3.jpg" alt="cuarto3" width="600px">
+    </div>
+    <div class="gallery"><a href="assets/img/cuarto4.jpg" target="_blank"><img src="assets/img/cuarto4.jpg" alt="cuarto4" width="600px">
+    </div>
+    <div class="gallery"><a href="assets/img/cuarto5.jpg"target="_blank"><img src="assets/img/cuarto5.jpg" alt="cuarto5" width="600px">
+    </div>
+    </section>
+    
+    <footer class="footer">
+        <p>Derechos reservados - Hotel San Martin &copy; 2023</p>
+        
+        </footer>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico.png" type="image/x-icon">
+    <title>Hotel San Martin</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #fff89a;
+            text-align: center;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: #fff89a;
+            
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+           
+            
+        }
+        div{
+            height: 500px;
+            width: 500px;
+            position: relative;
+            left: 200px;
+        }
+        .servicio1{
+            text-align: center;
+            color: rgb(0, 26, 255);
+        }
+        .td2{
+            background-color: #fff89a;
+        }
+        .td1{
+            background-color: #fff89a;
+        }
+    </style>
+   
+
+</head>
+
+<body>
+<header>
+<h1>Hotel San Martin</h1>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="servicios.html">Servicios</a></li>
+        <li><a href="galeriadefotos.html">Galeria de fotos</a></li>
+        <li><a href="ubicacionycontacto.html">Ubicacion y Contacto</a></li>
+    </ul>
+</nav>
+
+</header>
+<h2 class="servicio1">Servicios</h2>
+<hr>
+
+<div class="tabla">
+<table>
+<colgroup>
+  <col style="background-color: rgb(255, 255, 255);">  
+  <col>  
+  <col>  
+  <col>  
+</colgroup>
+
+<tr class="td1">
+<td>Wifi</td>
+<td>Desayuno Buffet</td>
+<td>Estacionamiento</td>
+<td>Frigobar</td>
+<td>Restaurante</td>
+<td>Aire Acondicionado</td>
+<td>TV LED</td>
+
+</tr>
+<tr class="td2">
+    <td>Gimnasio</td>
+    <td>Bar y Cafeteria</td>
+    <td>Servicio de Mucama Diario</td>
+    <td>Servicio de Alquiler de autos, tercerizado (con costo adicional)</td>
+    <td>Piscina cubierta (sujeto a disponibilidad, con cargo adicional)</td>
+    <td>Piscina Exterior</td>
+    <td>Venta de vinos por mayor y menor</td>
+    
+</tr>
+</table>
+</div>
+
+<footer class="footer">
+    <p>Derechos reservados - Hotel San Martin &copy; 2023</p>
+    
+    </footer>
+</body>
+
+
+</html>
